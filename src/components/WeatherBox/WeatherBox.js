@@ -8,7 +8,6 @@ const WeatherBox = (props) => {
   const [weatherData, setWeatherData] = useState();
   const [pending, setPending] = useState(false);
   const [errorBox, setErrorBox] = useState(false);
-  console.log('weatherData:', weatherData);
 
   const handleCityChange = useCallback((city) => {
     setPending(true);

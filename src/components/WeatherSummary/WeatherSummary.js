@@ -1,8 +1,6 @@
 import styles from './WeatherSummary.module.scss';
 
 const WeatherSummary = ({ data }) => {
-  console.log('data:', data);
-  console.log('data.description:', data.description);
   return (
     <section className={styles.weatherSummary}>
       <img
